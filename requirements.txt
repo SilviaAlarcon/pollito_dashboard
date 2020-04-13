@@ -1,0 +1,4 @@
+#conda create -n pollitos python=3.7
+#pip install dash==1.10.0
+#conda install pandas==1.0.3 dash==1.4.1
+#conda install -c conda-forge dash-bootstrap-components
