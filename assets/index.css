@@ -490,9 +490,9 @@
   
   .female {
     box-shadow:
-    inset -2px -2px 2px 3px rgba(56,38,106,1),
-    2px 2px 4px 1px #944CAE,
-    px 0px 9px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4); 
+    inset -1px -3px 4px 3px rgba(56,38,106,1),
+    3px 3px 8px -1px #944CAE,
+    3px 2px 9px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4); 
   }
   
   .iconF{
