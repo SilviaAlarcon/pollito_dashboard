@@ -18,7 +18,7 @@ chick_data = {
 app.layout = html.Div([
         html.Div(id='header', children=[
             html.Div(className='header-container', children=[
-                html.H3(children=["PARVADA"])]
+                html.Img(className= 'logo', src='/assets/Icons/logo.jpeg')]
                     )
             ]),
 
