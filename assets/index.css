@@ -356,9 +356,9 @@
    /* Secundario #352E64 */
    /* Terciario #5a5396 */
   
-   /* Sombra de la niña #693E97 */
-   /* Sombra del niño #516AA4 */
-  /* Sombra del pollito #9B8A75 */
+   /* female #693E97 */
+   /* males #516AA4 */
+  /* chicken #9B8A75 */
   
   
   body {
@@ -379,15 +379,13 @@
   }
   
   .header-container {
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
   }
   
-  #header h3{
-      color:#F2F2F0;
-      margin:0;
-      font-weight: 300;
-      padding: 1em;
+  .logo {
+    width: 35%;
+    margin-left: 5%;
   } 
   
   /* Control Buttons */
