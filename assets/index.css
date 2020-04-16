@@ -362,7 +362,7 @@ template {
 
 
 body {
-  background-color: #352e64;
+  background-color: #342D63;
   font-family: 'Montserrat', sans-serif;
   color:#F2F2F0;
   display: flex;
@@ -437,7 +437,7 @@ input[type="radio"] {
 
 /* appearance for checked radiobutton */
 input[type="radio"]:checked {
-  background-color: #F88AEF;
+  background-color: #BC5DDD;
 }
 
 /* content-wrapper */
@@ -651,11 +651,11 @@ input[type="radio"]:checked {
 }
 
 .pink {
-  background-color: #F88AEF;
+  background-color: #ED8AEF;
 }
 
 .blue {
-  background-color: #06A3F4;
+  background-color: #35A4F5;
 }
 
 /*RESPONSIVE DESING */
