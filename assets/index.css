@@ -352,14 +352,6 @@ template {
 * {
     font-family: 'Montserrat', sans-serif;
 }
- /*Principal #1C173F */
- /* Secundario #352E64 */
- /* Terciario #5a5396 */
-
- /* female box-shadow #693E97 */
- /* male box-shadow #516AA4 */
-/* chicken box-shadow #9B8A75 */
-
 
 body {
   background-color: #342D63;
@@ -373,9 +365,9 @@ body {
 /* HEADER */
 
 #header {
-    background-color:#1C173F;
-    width: 100%;
-    flex-wrap: wrap;
+  background-color:#1C173F;
+  width: 100%;
+  box-shadow: 0px 3px 10px 1px rgba(56,38,106,1);
 }
 
 .header-container {
@@ -474,7 +466,7 @@ input[type="radio"]:checked {
 }
 
 .box {
-  background: #5a5396;
+  background: #5A5396;
   width: 15vw;
   height: 15vw;
   border-radius: 35px;
@@ -487,20 +479,22 @@ input[type="radio"]:checked {
 
 .female {
   box-shadow:
-  inset -1px -3px 4px 3px rgba(56,38,106,1),
-  3px 3px 8px -1px #944CAE,
-  3px 2px 9px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4); 
+  inset -1px -3px 2px 0px rgba(56,38,106,1),
+  2px 2px 0px 0px #944CAE,
+  4px -4px 5px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4), 
+  4px 4px 25px -2px #944CAE;
 }
 
 .iconF{
-  filter:drop-shadow(0px 0px 5px #F88AEF);
+  filter:drop-shadow(0px 0px 5px #944CAE);
 }
  
 .male {
   box-shadow:
-  inset -2px -2px 2px 3px rgba(56,38,106,1),
-  2px 2px 4px 1px #06A3F4,
-  0px 0px 9px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4);
+  inset -1px -3px 2px 0px rgba(56,38,106,1),
+  2px 2px 0px 0px #06A3F4,
+  4px -4px 5px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4), 
+  4px 4px 25px -2px #5471a9;
 }
 
 .iconM{
@@ -509,18 +503,19 @@ input[type="radio"]:checked {
 
 .chicken {
   box-shadow:
-  inset -2px -2px 2px 3px rgba(56,38,106,1),
-  2px 2px 4px 1px rgb(158, 150, 40),
-  0px 0px 9px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4);
+  inset -1px -3px 2px 0px rgba(56,38,106,1),
+  2px 2px 0px 0px #6f5e42,
+  4px -4px 5px -5px #fff,-1px -1px 4px 1px rgba(189,186,232,.4), 
+  4px 4px 25px -2px #6f5e42;
 }
 
 .iconC{
-  filter:drop-shadow(0px 0px 5px rgb(158, 150, 40))
+  filter:drop-shadow(0px 0px 5px #6f5e42)
 }
 
 .box strong {
   display: block;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 600;
   align-self: center;
   width: 100%;
@@ -529,10 +524,11 @@ input[type="radio"]:checked {
 .box p {
   width: 100%;
   margin:0;
+  font-size: 18px;
 }
 
 .box img {
-  width: 2em;
+  width: 2.5em;
 }
 
 .video-container {
@@ -546,7 +542,7 @@ input[type="radio"]:checked {
 
 .side-container{
   height: 625px;
-  background: #5a5396;
+  background: #5A5396;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
@@ -576,8 +572,8 @@ input[type="radio"]:checked {
   width: 90%;
 }
 
-.recently{
-  font-size: 1.5em;
+.recently {
+  font-size: 1.7em;
   font-weight: lighter;
   width: 100%;
   margin-bottom: .5em;
@@ -617,7 +613,7 @@ input[type="radio"]:checked {
 
 .gender p{
   margin: 0;
-  font-size: .8em;
+  font-size: .9em;
 }
 
 .gender p::before{
@@ -630,7 +626,7 @@ input[type="radio"]:checked {
   background-repeat: no-repeat;
   position: relative;
   left: -1.1em;
-  top: 1em;
+  top: 1.09em;
 }
 
 .gender img{
