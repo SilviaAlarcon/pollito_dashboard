@@ -373,7 +373,7 @@ body {
 }
 
 .logo {
-width: 35%;
+width: 30%;
 margin-left: 10%;
 } 
 
@@ -393,7 +393,7 @@ margin-left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.1em 0;
+    margin: 1em 0;
     flex-wrap: wrap;
 }
 
@@ -444,7 +444,7 @@ input[type="radio"]:checked {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "a b c";
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 .box:nth-child(1) {
@@ -464,8 +464,8 @@ input[type="radio"]:checked {
 
 .box {
   background: #5A5396;
-  width: 13vw;
-  height: 13vw;
+  width: 12.5vw;
+  height: 12.5vw;
   border-radius: 35px;
   text-align: center;
   display: flex;
@@ -538,7 +538,7 @@ input[type="radio"]:checked {
 }
 
 .side-container{
-  height: 535px;
+  height: 522px;
   background: #5A5396;
   overflow-y: scroll;
   display: flex;
@@ -651,36 +651,4 @@ input[type="radio"]:checked {
 
 .blue {
   background-color: #35A4F5;
-}
-
-/* Tablets */
-@media (max-width: 970px) {
-  .main {
-    width: 100%;
-    margin: 0;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .box {
-    width: calc((100vw - 40vw ) / 3);
-    height: calc((100vw - 40vw ) / 3);
-  }
-
-  .recently:after {
-    width: 105%;
-    left:-2.5%;
-  }
-
-  #sexed-chick-stream {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .gender {
-    width: 30%;
-    margin-left: 1em;
-  }
 }
