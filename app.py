@@ -19,7 +19,7 @@ app.layout = html.Div(className= 'hero', children = [
         html.Div(className= 'hero-container', children = [
             html.Div(id='header', children=[
                 html.Div(className='header-container', children=[
-                    html.Img(className= 'logo', src='/assets/Icons/logo.jpeg')]
+                    html.Img(className= 'logo', src='/assets/Icons/logo2.jpeg')]
                         )
                 ]),
 
